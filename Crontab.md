@@ -31,4 +31,10 @@ Now, enter the command "crontab -l" and it will display the following output:
 ```bash
 * * * * * echo "Hello world!" > /dev/pts/0
 ```
+```bash
+vagrant@ubuntu2204:~$ Hello world!
+Hello world!
+Hello world!
+...
+```
 
