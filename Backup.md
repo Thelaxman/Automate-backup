@@ -16,3 +16,11 @@ tar: Removing leading `/' from member names
 /home/ubuntu/.ssh/authorized_keys
 ...
 ```
+### Creating a Cronjob with the test-script created above that will be executed everyday at 05:00
+
+```bash
+sudo crontab -e
+
+0 5 * * * tar -zcf /var/backups/home.$(date -I).tar.gz /home/
+
+```
