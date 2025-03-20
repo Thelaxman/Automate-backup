@@ -12,7 +12,7 @@ vagrant@ubuntu2204:~$ sudo find /var/backups -name "home.*.tar.gz"
 ```
 What this command is doing is looking for all of the files in /var/backups that start with home. and end with .tar.gz. The * is a wildcard character that matches any string.
 
-### create a scheduled task that will find all of the files older than 7 days in /var/backups and delete them. Run sudo crontab -e and install the following cronjob.
+### Create a scheduled task that will find all of the files older than 7 days in /var/backups and delete them. Run sudo crontab -e and install the following cronjob.
 
 ```bash
 30 5 * * * find /var/backups -name "home.*.tar.gz" -mtime +7 -delete
