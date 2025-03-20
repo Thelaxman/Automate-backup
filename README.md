@@ -1,6 +1,6 @@
 # Automate-backup
 
-Documnetation on Automating a backup in a linux environmnet on a virtual server running on AWS. The backup would be scheduled to run once every week based on a Cronjob script.
+Documentation on Automating a backup in a linux environmnet on a virtual server running on AWS. The backup would be scheduled to run once every week based on a Cronjob script.
 
 ## Crontab
 
